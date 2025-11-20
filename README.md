@@ -1,9 +1,9 @@
 # Taiwan Holiday MCP Server
 
-[![Node.js Version](https://img.shields.io/node/v/taiwan-holiday-mcp.svg)](https://nodejs.org/)
-[![npm version](https://badge.fury.io/js/taiwan-holiday-mcp.svg)](https://badge.fury.io/js/taiwan-holiday-mcp)
+[![Node.js Version](https://img.shields.io/node/v/@bachstudio/taiwan-holiday-mcp.svg)](https://nodejs.org/)
+[![npm version](https://badge.fury.io/js/@bachstudio%2Ftaiwan-holiday-mcp.svg)](https://badge.fury.io/js/@bachstudio%2Ftaiwan-holiday-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=taiwan-holiday&config=eyJjb21tYW5kIjoibnB4IHRhaXdhbi1ob2xpZGF5LW1jcCJ9)
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=taiwan-holiday&config=eyJjb21tYW5kIjoibnB4IEBiYWNoc3R1ZGlvL3RhaXdhbi1ob2xpZGF5LW1jcCJ9)
 
 一個基於 Model Context Protocol (MCP) 的台灣假期查詢伺服器，提供準確的台灣國定假日和補班日資訊。
 
@@ -25,20 +25,20 @@
 最簡單的使用方式，無需安裝：
 
 ```bash
-npx taiwan-holiday-mcp
+npx @bachstudio/taiwan-holiday-mcp
 ```
 
 ### 本地安裝
 
 ```bash
-npm install -g taiwan-holiday-mcp
+npm install -g @bachstudio/taiwan-holiday-mcp
 taiwan-holiday-mcp
 ```
 
 ### 開發環境安裝
 
 ```bash
-git clone https://github.com/lis186/taiwan-holiday-mcp.git
+git clone https://github.com/BACH-AI-Tools/taiwan-holiday-mcp.git
 cd taiwan-holiday-mcp
 npm install
 npm run build
@@ -58,7 +58,7 @@ npm start
   "mcpServers": {
     "taiwan-holiday": {
       "command": "npx",
-      "args": ["taiwan-holiday-mcp"]
+      "args": ["@bachstudio/taiwan-holiday-mcp"]
     }
   }
 }
@@ -72,7 +72,7 @@ npm start
 
 點擊以下按鈕直接安裝。
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=taiwan-holiday&config=eyJjb21tYW5kIjoibnB4IHRhaXdhbi1ob2xpZGF5LW1jcCJ9)
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=taiwan-holiday&config=eyJjb21tYW5kIjoibnB4IEBiYWNoc3R1ZGlvL3RhaXdhbi1ob2xpZGF5LW1jcCJ9)
 
 ### Windsurf 設定
 
@@ -84,7 +84,7 @@ npm start
     "servers": {
       "taiwan-holiday": {
         "command": "npx",
-        "args": ["taiwan-holiday-mcp"]
+        "args": ["@bachstudio/taiwan-holiday-mcp"]
       }
     }
   }
@@ -241,8 +241,8 @@ npm start
 node --version
 
 # 重新安裝套件
-npm uninstall -g taiwan-holiday-mcp
-npm install -g taiwan-holiday-mcp
+npm uninstall -g @bachstudio/taiwan-holiday-mcp
+npm install -g @bachstudio/taiwan-holiday-mcp
 
 # 測試伺服器
 taiwan-holiday-mcp --version
@@ -293,7 +293,7 @@ taiwan-holiday-mcp --debug
 
 ```bash
 # 複製專案
-git clone https://github.com/lis186/taiwan-holiday-mcp.git
+git clone https://github.com/BACH-AI-Tools/taiwan-holiday-mcp.git
 cd taiwan-holiday-mcp
 
 # 安裝依賴
@@ -377,8 +377,8 @@ npm run test:coverage
 
 ## 📞 支援
 
-- **GitHub Issues**: [回報問題](https://github.com/lis186/taiwan-holiday-mcp/issues)
-- **文件**: [完整文件](https://github.com/lis186/taiwan-holiday-mcp/docs)
+- **GitHub Issues**: [回報問題](https://github.com/BACH-AI-Tools/taiwan-holiday-mcp/issues)
+- **文件**: [完整文件](https://github.com/BACH-AI-Tools/taiwan-holiday-mcp/docs)
 
 ---
 

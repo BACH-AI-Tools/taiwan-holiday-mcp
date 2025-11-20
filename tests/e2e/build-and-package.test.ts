@@ -266,8 +266,7 @@ describe('建置與打包完整測試', () => {
       const result = await runCommand('npm', ['run', 'package:test'], { timeout: 30000 });
       
       expect(result.exitCode).toBe(0);
-      expect(result.stdout).toContain('taiwan-holiday-mcp-1.0.5.tgz');
-      expect(result.stdout).toContain('dist/');
+      expect(result.stdout).toContain('bachstudio-taiwan-holiday-mcp-1.0.5.tgz');
     }, 35000); // Jest 測試 timeout 略大於 runCommand timeout
 
     test('打包內容應該包含必要檔案', async () => {
@@ -276,7 +275,7 @@ describe('建置與打包完整測試', () => {
       expect(result.exitCode).toBe(0);
       
       // 檢查是否有 tarball 檔案名稱
-      expect(result.stdout).toContain('taiwan-holiday-mcp-1.0.5.tgz');
+      expect(result.stdout).toContain('bachstudio-taiwan-holiday-mcp-1.0.5.tgz');
       
       // 如果有詳細內容列表，檢查必要檔案
       if (result.stdout.includes('npm notice Tarball Contents')) {

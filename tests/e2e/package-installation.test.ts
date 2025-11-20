@@ -88,7 +88,7 @@ describe('套件安裝測試', () => {
         expect(installResult.code).toBe(0);
 
         // 檢查是否正確安裝
-        const nodeModulesPath = join(tempDir, 'node_modules', 'taiwan-holiday-mcp');
+        const nodeModulesPath = join(tempDir, 'node_modules', '@bachstudio', 'taiwan-holiday-mcp');
         const stats = await fs.stat(nodeModulesPath);
         expect(stats.isDirectory()).toBe(true);
 
@@ -159,7 +159,7 @@ describe('套件安裝測試', () => {
     );
 
     // 基本資訊
-    expect(packageJson.name).toBe('taiwan-holiday-mcp');
+    expect(packageJson.name).toBe('@bachstudio/taiwan-holiday-mcp');
     expect(packageJson.version).toMatch(/^\d+\.\d+\.\d+/);
     expect(packageJson.description).toBeTruthy();
     expect(packageJson.license).toBe('MIT');
