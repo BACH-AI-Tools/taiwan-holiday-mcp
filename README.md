@@ -7,6 +7,8 @@
 
 一個基於 Model Context Protocol (MCP) 的台灣假期查詢伺服器，提供準確的台灣國定假日和補班日資訊。
 
+> **基于原项目**: 此项目基于 [taiwan-holiday-mcp](https://github.com/lis186/taiwan-holiday-mcp) 修改而来
+
 ## ✨ 特色功能
 
 - 🇹🇼 **準確的台灣假期資料**：基於 [TaiwanCalendar](https://github.com/ruyut/TaiwanCalendar) 提供的政府公告假期資訊
